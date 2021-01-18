@@ -46,9 +46,11 @@ To be able to use the FAS OnDemand computing environment for your DataFest proje
 
 2. On the Dashboard launcher page, on the left-side panel, click on `Rstudio Server - DataFest2021`.
 3. On the main panel, click the blue `Launch` button.
+
 ![](images/2_launch_rstudio.png)
 
 4. On the Sessions page, click on the blue `Connect to RStudio Server` button. 
+
 ![](images/4_connect_rstudio.png)
 
 5. You should now have access to RStudio. You can create a new R/Rmarkdown file as usual, or open an existing file.
@@ -57,9 +59,11 @@ To be able to use the FAS OnDemand computing environment for your DataFest proje
 
 2. On the Dashboard launcher page, on the left-side panel, click on `Jupyter Notebook - DataFest2021`.
 3. On the main panel, click the blue `Launch` button.
+
 ![](images/3_launch_jupyter.png)
 
 4. On the Sessions page, click on the blue `Connect to Jupyter` button. 
+
 ![](images/5_connect_jupyter.png)
 
 5. You should now have access to Jupyter. You can either create a new notebook from the `New` dropdown on the far right (select the `datafest_2021` kernel) or you can navigate to an existing file (after opening the file, select the `datafest_2021` kernel from the Kernal menu).
