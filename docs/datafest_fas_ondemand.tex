@@ -130,7 +130,7 @@
 \section*{Why are we using FAS OnDemand for DataFest?}\label{why-are-we-using-fas-ondemand-for-datafest}}
 \addcontentsline{toc}{section}{Why are we using FAS OnDemand for DataFest?}
 
-It can sometimes be challenging in large courses to get every participant's personal computer set-up with the necessary software. For this DataFest bootcamp, you will need an up to date R or Python environment with a suite of non-default packages/modules installed. FAS OnDemand provides you access to an environment that has been curated specifically for DataFest2021, so you can focus on learning skills, rather than debugging your software installation. In addition, you can access FAS OnDemand directly from within the DataFest2021 course on Canvas.
+It can sometimes be challenging in large courses to get every student's personal computer set-up with the necessary software. For this DataFest bootcamp, you will need an up to date R or Python environment with a suite of non-default packages/modules installed. FAS OnDemand provides you access to an environment that has been curated specifically for DataFest2021, so you can focus on learning skills, rather than debugging your software installation. In addition, you can access FAS OnDemand directly from within the DataFest2021 course on Canvas.
 
 When using the FAS OnDemand environment, you will have access to resources that include:
 
@@ -152,11 +152,11 @@ The FAS OnDemand DataFest2021 Jupyter Notebooks installation comes with a \textt
 
 The FAS OnDemand DataFest2021 RStudio installation is available for \texttt{R\ 4.0.3} and comes preinstalled with common packages such as \texttt{devtools}, \texttt{learnr}, and the complete \texttt{tidyverse} collection of R packages, as well as many specialized packages we'll use during DataFest.
 
-\hypertarget{how-to-launch-rstudio-jupyter-from-canvas}{%
-\chapter*{How to launch RStudio / Jupyter from Canvas}\label{how-to-launch-rstudio-jupyter-from-canvas}}
-\addcontentsline{toc}{chapter}{How to launch RStudio / Jupyter from Canvas}
+\hypertarget{launch-rstudio-jupyter}{%
+\chapter*{Launch RStudio / Jupyter}\label{launch-rstudio-jupyter}}
+\addcontentsline{toc}{chapter}{Launch RStudio / Jupyter}
 
-To be able to use the FAS OnDemand computing environment for your DataFest project you will need to walk-through a handful of steps. Once completed, you will be running an RStudio or Jupyter session with all necessary packages pre-installed.
+To be able to use the FAS OnDemand computing environment for your DataFest project you will need to walk-through a handful of steps. Once completed, you will be running an RStudio or Jupyter session with all necessary packages pre-installed. The FAS OnDemand computing environment is accessed from \emph{within} Canvas --- look for the \texttt{FAS\ OnDemand} button on the left-side navigation panel. Here are the steps to launch your session:
 
 \hypertarget{rstudio}{%
 \section{RStudio}\label{rstudio}}
@@ -177,7 +177,7 @@ To be able to use the FAS OnDemand computing environment for your DataFest proje
 \end{enumerate}
 
 \hypertarget{jupyter}{%
-\chapter{Jupyter}\label{jupyter}}
+\section{Jupyter}\label{jupyter}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -196,10 +196,10 @@ To be able to use the FAS OnDemand computing environment for your DataFest proje
 
 \includegraphics{images/readme-license.png}
 
-\hypertarget{how-to-copy-codedata-from-the-shared-drive-to-your-home-directory}{%
-\chapter{How to copy code/data from the shared drive to your home directory}\label{how-to-copy-codedata-from-the-shared-drive-to-your-home-directory}}
+\hypertarget{copy-instructors-codedata-to-your-home-directory}{%
+\chapter{Copy instructor's code/data to your home directory}\label{copy-instructors-codedata-to-your-home-directory}}
 
-If your instructor has uploaded code and/or data to the shared drive (the \texttt{shared\_data} directory within your \texttt{Home} directory) then the first thing you should do before using these files is to copy them to your \texttt{Home} directory. These copies will serve as your own personal version of the files, which you can modify as you wish.
+If your instructor has uploaded code and/or data to the shared drive (this is the \texttt{shared\_data} directory within your \texttt{Home} directory) then the first thing you should do before using these files is to copy them to your \texttt{Home} directory. These copies will serve as your own personal version of the files, which you can modify as you wish.
 
 There are several different ways you can copy files from the \texttt{shared\_data} directory to your \texttt{Home} directory, depending on whether you'd prefer to use the command line or a GUI. Here are the options:
 
@@ -291,8 +291,8 @@ There are several different ways you can copy files from the \texttt{shared\_dat
   Delete ALL of the file path in the pop-up window and click the blue \texttt{Move} button
 \end{enumerate}
 
-\hypertarget{how-to-download-codedata-to-your-personal-computer}{%
-\chapter{How to download code/data to your personal computer}\label{how-to-download-codedata-to-your-personal-computer}}
+\hypertarget{download-codedata-to-your-personal-computer}{%
+\chapter{Download code/data to your personal computer}\label{download-codedata-to-your-personal-computer}}
 
 At the end of your project, you will probably want to download your script files and data files from the FAS OnDemand environment to your local machine. This is easy to do from within RStudio / Jupyter:
 
@@ -320,6 +320,24 @@ At the end of your project, you will probably want to download your script files
   Select the file of interest using the radio button within the file browser.
 \item
   Click the \texttt{Download} button on the top menu.
+\end{enumerate}
+
+\hypertarget{upload-codedata-to-your-home-directory}{%
+\chapter{Upload code/data to your home directory}\label{upload-codedata-to-your-home-directory}}
+
+If you have files on your personal computer that you'd like to use within the FAS OnDemand computing environment, you can upload them by following these steps (the steps are the same regardless of whether you intend to use RStudio or Jupyter):
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Click \texttt{FAS\ OnDemand} in the left-side navigation panel within Canvas.
+\item
+  On the Dashboard launcher page, go to the \texttt{Files} dropdown menu at top-left and click on \texttt{Home\ Directory}.
+\item
+  Within the File Explorer page, click on the \texttt{Go\ To} button in the top most menu and navigate to: \texttt{/n/academic\_homes/g\_87116/SHARE/shared\_data/} Note: this location for \texttt{shared\_data} has been symlinked to your \texttt{Home} directory, so you will also see, and be able to access files from, \texttt{shared\_data} within \texttt{Home}.
+\item
+  Within the \texttt{shared\_data} directory, you can upload whatever code/data files you and your participants will need by clicking on the \texttt{Upload} button at the very top of the page and then choosing a file from your local machine. It probably makes sense to organize your files by first creating a directory with a short-named version of your demo session (see the \texttt{New\ Dir} button in the very top most menu). Make sure not to leave spaces in the directory name - use underscores (e.g., \texttt{APIs\_to\_acquire\_data}). Then upload your files into this directory.
 \end{enumerate}
 
 \end{document}

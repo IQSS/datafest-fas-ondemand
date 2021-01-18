@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>FAS OnDemand Quick-Start Guide</title>
+  <title>Launch RStudio / Jupyter | FAS OnDemand Quick-Start Guide</title>
   <meta name="description" content="This is a tutorial for using FAS OnDemand" />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="FAS OnDemand Quick-Start Guide" />
+  <meta property="og:title" content="Launch RStudio / Jupyter | FAS OnDemand Quick-Start Guide" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="IQSS/datafest-fas-ondemand" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="FAS OnDemand Quick-Start Guide" />
+  <meta name="twitter:title" content="Launch RStudio / Jupyter | FAS OnDemand Quick-Start Guide" />
   
   <meta name="twitter:description" content="This is a tutorial for using FAS OnDemand" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="launch-rstudio-jupyter.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="copy-instructors-codedata-to-your-home-directory.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -108,26 +108,29 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">FAS OnDemand Quick-Start Guide</h1>
-<p class="date"><em>January 2021</em></p>
+<div id="launch-rstudio-jupyter" class="section level1 unnumbered">
+<h1>Launch RStudio / Jupyter</h1>
+<p>To be able to use the FAS OnDemand computing environment for your DataFest project you will need to walk-through a handful of steps. Once completed, you will be running an RStudio or Jupyter session with all necessary packages pre-installed. The FAS OnDemand computing environment is accessed from <em>within</em> Canvas — look for the <code>FAS OnDemand</code> button on the left-side navigation panel. Here are the steps to launch your session:</p>
+<div id="rstudio" class="section level2">
+<h2>RStudio</h2>
+<ol style="list-style-type: decimal">
+<li>Click <code>FAS OnDemand</code> in the left-side navigation panel within Canvas.</li>
+<li>On the Dashboard launcher page, on the left-side panel, click on <code>Rstudio Server - DataFest2021</code>.</li>
+<li>On the main panel, click the blue <code>Launch</code> button.</li>
+<li>On the Sessions page, click on the blue <code>Connect to RStudio Server</code> button.</li>
+<li>You should now have access to RStudio. You can create a new R/Rmarkdown file as usual, or open an existing file.</li>
+</ol>
 </div>
-<div id="what-is-fas-ondemand" class="section level1 unnumbered">
-<h1>What is FAS OnDemand?</h1>
-<p><a href="https://atg.fas.harvard.edu/ondemand">FAS OnDemand</a> gives Harvard students access to Jupyter Notebooks and RStudio, and can be launched directly from <a href="https://canvas.harvard.edu/">Canvas</a>. It is hosted by Harvard’s FAS Research Computing group (FAS RC) and collaboratively supported by both FAS RC and FAS Academic Technology.</p>
-<div id="why-are-we-using-fas-ondemand-for-datafest" class="section level2 unnumbered">
-<h2>Why are we using FAS OnDemand for DataFest?</h2>
-<p>It can sometimes be challenging in large courses to get every student’s personal computer set-up with the necessary software. For this DataFest bootcamp, you will need an up to date R or Python environment with a suite of non-default packages/modules installed. FAS OnDemand provides you access to an environment that has been curated specifically for DataFest2021, so you can focus on learning skills, rather than debugging your software installation. In addition, you can access FAS OnDemand directly from within the DataFest2021 course on Canvas.</p>
-<p>When using the FAS OnDemand environment, you will have access to resources that include:</p>
-<ul>
-<li>8 cores</li>
-<li>16Gb RAM</li>
-<li>20Gb storage</li>
-<li>10Tb scratch storage (shared between all users on the course)</li>
-</ul>
-<p>Of course, if you prefer to use your own local R or Python environment on your personal computer that is perfectly fine, but we will not be able to provide assistance to you if you encounter problems setting that up correctly.</p>
-<p>The FAS OnDemand DataFest2021 Jupyter Notebooks installation comes with a <code>Python 3</code> jupyter kernel, common data science packages such as <code>numpy</code>, <code>scipy</code>, <code>seaborn</code>, <code>pandas</code>, <code>bokeh</code>, and <code>matplotlib</code>, as well as many specialized modules we’ll use during DataFest.</p>
-<p>The FAS OnDemand DataFest2021 RStudio installation is available for <code>R 4.0.3</code> and comes preinstalled with common packages such as <code>devtools</code>, <code>learnr</code>, and the complete <code>tidyverse</code> collection of R packages, as well as many specialized packages we’ll use during DataFest.</p>
+<div id="jupyter" class="section level2">
+<h2>Jupyter</h2>
+<ol style="list-style-type: decimal">
+<li>Click <code>FAS OnDemand</code> in the left-side navigation panel within Canvas.</li>
+<li>On the Dashboard launcher page, on the left-side panel, click on <code>Jupyter Notebook - DataFest2021</code>.</li>
+<li>On the main panel, click the blue <code>Launch</code> button.</li>
+<li>On the Sessions page, click on the blue <code>Connect to Jupyter</code> button.</li>
+<li>You should now have access to Jupyter. You can either create a new notebook from the <code>New</code> dropdown on the far right (select the “datafest_2021” kernel) or you can navigate to an existing file (after opening the file, select the <code>datafest_2021</code> kernel from the Kernal menu).</li>
+</ol>
+<p><img src="images/readme-license.png" /></p>
 </div>
 </div>
             </section>
@@ -135,8 +138,8 @@
           </div>
         </div>
       </div>
-
-<a href="launch-rstudio-jupyter.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="copy-instructors-codedata-to-your-home-directory.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

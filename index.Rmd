@@ -18,7 +18,7 @@ link-citations: yes
 
 ## Why are we using FAS OnDemand for DataFest? {-}
 
-It can sometimes be challenging in large courses to get every participant's personal computer set-up with the necessary software. For this DataFest bootcamp, you will need an up to date R or Python environment with a suite of non-default packages/modules installed. FAS OnDemand provides you access to an environment that has been curated specifically for DataFest2021, so you can focus on learning skills, rather than debugging your software installation. In addition, you can access FAS OnDemand directly from within the DataFest2021 course on Canvas.
+It can sometimes be challenging in large courses to get every student's personal computer set-up with the necessary software. For this DataFest bootcamp, you will need an up to date R or Python environment with a suite of non-default packages/modules installed. FAS OnDemand provides you access to an environment that has been curated specifically for DataFest2021, so you can focus on learning skills, rather than debugging your software installation. In addition, you can access FAS OnDemand directly from within the DataFest2021 course on Canvas.
 
 When using the FAS OnDemand environment, you will have access to resources that include:
 
@@ -34,9 +34,9 @@ The FAS OnDemand DataFest2021 Jupyter Notebooks installation comes with a `Pytho
 The FAS OnDemand DataFest2021 RStudio installation is available for `R 4.0.3` and comes preinstalled with common packages such as `devtools`, `learnr`, and the complete `tidyverse` collection of R packages, as well as many specialized packages we'll use during DataFest. 
 
 
-# How to launch RStudio / Jupyter from Canvas {-}
+# Launch RStudio / Jupyter {-}
 
-To be able to use the FAS OnDemand computing environment for your DataFest project you will need to walk-through a handful of steps. Once completed, you will be running an RStudio or Jupyter session with all necessary packages pre-installed. 
+To be able to use the FAS OnDemand computing environment for your DataFest project you will need to walk-through a handful of steps. Once completed, you will be running an RStudio or Jupyter session with all necessary packages pre-installed. The FAS OnDemand computing environment is accessed from *within* Canvas --- look for the `FAS OnDemand` button on the left-side navigation panel. Here are the steps to launch your session:
 
 ## RStudio
 
@@ -46,7 +46,7 @@ To be able to use the FAS OnDemand computing environment for your DataFest proje
 4. On the Sessions page, click on the blue `Connect to RStudio Server` button. 
 5. You should now have access to RStudio. You can create a new R/Rmarkdown file as usual, or open an existing file.
 
-# Jupyter
+## Jupyter
 
 1. Click `FAS OnDemand` in the left-side navigation panel within Canvas.
 2. On the Dashboard launcher page, on the left-side panel, click on `Jupyter Notebook - DataFest2021`.
@@ -57,9 +57,9 @@ To be able to use the FAS OnDemand computing environment for your DataFest proje
 ![](images/readme-license.png)
 
 
-# How to copy code/data from the shared drive to your home directory
+# Copy instructor's code/data to your home directory
 
-If your instructor has uploaded code and/or data to the shared drive (the `shared_data` directory within your `Home` directory) then the first thing you should do before using these files is to copy them to your `Home` directory. These copies will serve as your own personal version of the files, which you can modify as you wish.
+If your instructor has uploaded code and/or data to the shared drive (this is the `shared_data` directory within your `Home` directory) then the first thing you should do before using these files is to copy them to your `Home` directory. These copies will serve as your own personal version of the files, which you can modify as you wish.
 
 There are several different ways you can copy files from the `shared_data` directory to your `Home` directory, depending on whether you'd prefer to use the command line or a GUI. Here are the options:
 
@@ -102,7 +102,7 @@ There are several different ways you can copy files from the `shared_data` direc
 5. Delete ALL of the file path in the pop-up window and click the blue `Move` button 
 
 
-# How to download code/data to your personal computer
+# Download code/data to your personal computer
 
 At the end of your project, you will probably want to download your script files and data files from the FAS OnDemand environment to your local machine. This is easy to do from within RStudio / Jupyter:
 
@@ -118,4 +118,12 @@ At the end of your project, you will probably want to download your script files
 2. Click the `Download` button on the top menu.
 
 
+# Upload code/data to your home directory
+
+If you have files on your personal computer that you'd like to use within the FAS OnDemand computing environment, you can upload them by following these steps (the steps are the same regardless of whether you intend to use RStudio or Jupyter):
+
+1. Click `FAS OnDemand` in the left-side navigation panel within Canvas.
+2. On the Dashboard launcher page, go to the `Files` dropdown menu at top-left and click on `Home Directory`.
+3. Within the File Explorer page, click on the `Go To` button in the top most menu and navigate to: `/n/academic_homes/g_87116/SHARE/shared_data/` Note: this location for `shared_data` has been symlinked to your `Home` directory, so you will also see, and be able to access files from, `shared_data` within `Home`. 
+4. Within the `shared_data` directory, you can upload whatever code/data files you and your participants will need by clicking on the `Upload` button at the very top of the page and then choosing a file from your local machine. It probably makes sense to organize your files by first creating a directory with a short-named version of your demo session (see the `New Dir` button in the very top most menu). Make sure not to leave spaces in the directory name - use underscores (e.g., `APIs_to_acquire_data`). Then upload your files into this directory.
 

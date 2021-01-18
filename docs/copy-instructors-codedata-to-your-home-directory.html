@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>FAS OnDemand Quick-Start Guide</title>
+  <title>Copy instructor’s code/data to your home directory | FAS OnDemand Quick-Start Guide</title>
   <meta name="description" content="This is a tutorial for using FAS OnDemand" />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="FAS OnDemand Quick-Start Guide" />
+  <meta property="og:title" content="Copy instructor’s code/data to your home directory | FAS OnDemand Quick-Start Guide" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="IQSS/datafest-fas-ondemand" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="FAS OnDemand Quick-Start Guide" />
+  <meta name="twitter:title" content="Copy instructor’s code/data to your home directory | FAS OnDemand Quick-Start Guide" />
   
   <meta name="twitter:description" content="This is a tutorial for using FAS OnDemand" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="launch-rstudio-jupyter.html"/>
+<link rel="prev" href="launch-rstudio-jupyter.html"/>
+<link rel="next" href="download-codedata-to-your-personal-computer.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -108,26 +108,59 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">FAS OnDemand Quick-Start Guide</h1>
-<p class="date"><em>January 2021</em></p>
+<div id="copy-instructors-codedata-to-your-home-directory" class="section level1">
+<h1>Copy instructor’s code/data to your home directory</h1>
+<p>If your instructor has uploaded code and/or data to the shared drive (this is the <code>shared_data</code> directory within your <code>Home</code> directory) then the first thing you should do before using these files is to copy them to your <code>Home</code> directory. These copies will serve as your own personal version of the files, which you can modify as you wish.</p>
+<p>There are several different ways you can copy files from the <code>shared_data</code> directory to your <code>Home</code> directory, depending on whether you’d prefer to use the command line or a GUI. Here are the options:</p>
+<div id="rstudio-using-terminal" class="section level2">
+<h2>RStudio: using Terminal</h2>
+<ol style="list-style-type: decimal">
+<li>Click on the <code>Terminal</code> tab on the top left panel, next to <code>Console</code>.</li>
+<li>Copy the file(s) or directories you want from the “shared_data” directory to your home directory: <code>cp -r shared_data/&lt;directory-you-want&gt;/ .</code></li>
+</ol>
 </div>
-<div id="what-is-fas-ondemand" class="section level1 unnumbered">
-<h1>What is FAS OnDemand?</h1>
-<p><a href="https://atg.fas.harvard.edu/ondemand">FAS OnDemand</a> gives Harvard students access to Jupyter Notebooks and RStudio, and can be launched directly from <a href="https://canvas.harvard.edu/">Canvas</a>. It is hosted by Harvard’s FAS Research Computing group (FAS RC) and collaboratively supported by both FAS RC and FAS Academic Technology.</p>
-<div id="why-are-we-using-fas-ondemand-for-datafest" class="section level2 unnumbered">
-<h2>Why are we using FAS OnDemand for DataFest?</h2>
-<p>It can sometimes be challenging in large courses to get every student’s personal computer set-up with the necessary software. For this DataFest bootcamp, you will need an up to date R or Python environment with a suite of non-default packages/modules installed. FAS OnDemand provides you access to an environment that has been curated specifically for DataFest2021, so you can focus on learning skills, rather than debugging your software installation. In addition, you can access FAS OnDemand directly from within the DataFest2021 course on Canvas.</p>
-<p>When using the FAS OnDemand environment, you will have access to resources that include:</p>
-<ul>
-<li>8 cores</li>
-<li>16Gb RAM</li>
-<li>20Gb storage</li>
-<li>10Tb scratch storage (shared between all users on the course)</li>
-</ul>
-<p>Of course, if you prefer to use your own local R or Python environment on your personal computer that is perfectly fine, but we will not be able to provide assistance to you if you encounter problems setting that up correctly.</p>
-<p>The FAS OnDemand DataFest2021 Jupyter Notebooks installation comes with a <code>Python 3</code> jupyter kernel, common data science packages such as <code>numpy</code>, <code>scipy</code>, <code>seaborn</code>, <code>pandas</code>, <code>bokeh</code>, and <code>matplotlib</code>, as well as many specialized modules we’ll use during DataFest.</p>
-<p>The FAS OnDemand DataFest2021 RStudio installation is available for <code>R 4.0.3</code> and comes preinstalled with common packages such as <code>devtools</code>, <code>learnr</code>, and the complete <code>tidyverse</code> collection of R packages, as well as many specialized packages we’ll use during DataFest.</p>
+<div id="rstudio-using-shell-commands-in-the-console" class="section level2">
+<h2>RStudio: using shell commands in the console</h2>
+<ol style="list-style-type: decimal">
+<li>Copy the file(s) or directories you want from the <code>shared_data</code> directory to your home directory by running the following command in the console: <code>system(&quot;cp -r ~/shared_data/&lt;directory-you-want&gt;/ .&quot;)</code></li>
+</ol>
+</div>
+<div id="rstudio-using-file-menu" class="section level2">
+<h2>RStudio: using File menu</h2>
+<ol style="list-style-type: decimal">
+<li>In the <code>Files</code> menu in the bottom right panel, navigate to the <code>shared_data</code> directory.</li>
+<li>Navigate to the directory with materials for the current session.</li>
+<li>Put a check next to the file you want to copy to your home folder. You can only copy one file at a time and no directories.</li>
+<li>Click on the <code>More</code> dropdown menu (with gears icon) and select <code>Copy To</code>.</li>
+<li>Near the top of the resulting pop-up window, click on the <code>Home</code> directory icon.</li>
+<li>Click the <code>Save</code> button on the bottom right. There will now be a copy of the file in your home directory, which you can open and work with.</li>
+</ol>
+</div>
+<div id="jupyter-using-terminal" class="section level2">
+<h2>Jupyter: using Terminal</h2>
+<ol style="list-style-type: decimal">
+<li>Click on the <code>New</code> dropdown on the right side of the page.</li>
+<li>Select <code>Terminal</code> from the dropdown menu.</li>
+<li>In the new browser tab, copy the file(s) or directories you want from the <code>shared_data</code> directory to your home directory: <code>cp -r shared_data/&lt;directory-you-want&gt;/ .</code></li>
+<li>Close the browser tab containing the Terminal (don’t click <code>logout</code>!). Go back to the previous browser tab to access Jupyter again.</li>
+</ol>
+</div>
+<div id="jupyter-using-shell-commands-in-cells" class="section level2">
+<h2>Jupyter: using shell commands in cells</h2>
+<ol style="list-style-type: decimal">
+<li>Open a Jupyter Notebook or create a new cell.</li>
+<li>Copy the file(s) of interest to your home directory: <code>!cp -r ~/shared_data/&lt;directory-you-want&gt;/ .</code></li>
+</ol>
+</div>
+<div id="jupyter-using-file-menu" class="section level2">
+<h2>Jupyter: using File menu</h2>
+<ol style="list-style-type: decimal">
+<li>Navigate to the file of interest within the <code>shared_data</code> directory.</li>
+<li>Click <code>Duplicate</code> from the top menu.</li>
+<li>Select the radio button next to the duplicated file.</li>
+<li>Click <code>Move</code> from the top menu.</li>
+<li>Delete ALL of the file path in the pop-up window and click the blue <code>Move</code> button</li>
+</ol>
 </div>
 </div>
             </section>
@@ -135,8 +168,8 @@
           </div>
         </div>
       </div>
-
-<a href="launch-rstudio-jupyter.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="launch-rstudio-jupyter.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="download-codedata-to-your-personal-computer.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
