@@ -1,0 +1,14 @@
+book_filename: 'datafest_fas_ondemand'
+
+output_dir: docs
+
+repo: https://github.com/IQSS/datafest-fas-ondemand
+
+rmd_files:
+  - "index.Rmd"
+
+delete_merged_file: true
+
+clean: [packages.bib, bookdown.bbl]
+
+new_session: yes
