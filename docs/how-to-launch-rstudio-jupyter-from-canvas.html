@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>How to launch RStudio / Jupyter from Canvas | FAS OnDemand Quick-Start Guide</title>
+  <meta name="description" content="This is a tutorial for using FAS OnDemand" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="How to launch RStudio / Jupyter from Canvas | FAS OnDemand Quick-Start Guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a tutorial for using FAS OnDemand" />
+  <meta name="github-repo" content="IQSS/datafest-fas-ondemand" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="How to launch RStudio / Jupyter from Canvas | FAS OnDemand Quick-Start Guide" />
+  
+  <meta name="twitter:description" content="This is a tutorial for using FAS OnDemand" />
+  
+
+<meta name="author" content="" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="jupyter.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">FAS OnDemand Quick-Start Guide</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>What is FAS OnDemand?</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#why-are-we-using-fas-ondemand-for-datafest"><i class="fa fa-check"></i>Why are we using FAS OnDemand for DataFest?</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="how-to-launch-rstudio-jupyter-from-canvas.html"><a href="how-to-launch-rstudio-jupyter-from-canvas.html"><i class="fa fa-check"></i>How to launch RStudio / Jupyter from Canvas</a><ul>
+<li class="chapter" data-level="" data-path="how-to-launch-rstudio-jupyter-from-canvas.html"><a href="how-to-launch-rstudio-jupyter-from-canvas.html#rstudio"><i class="fa fa-check"></i>RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="jupyter.html"><a href="jupyter.html"><i class="fa fa-check"></i>Jupyter</a></li>
+<li class="chapter" data-level="" data-path="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html"><a href="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html"><i class="fa fa-check"></i>How to copy code/data from the shared drive to your home directory</a><ul>
+<li class="chapter" data-level="" data-path="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html"><a href="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html#rstudio-using-terminal"><i class="fa fa-check"></i>RStudio: using Terminal</a></li>
+<li class="chapter" data-level="" data-path="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html"><a href="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html#rstudio-using-shell-commands-in-the-console"><i class="fa fa-check"></i>RStudio: using shell commands in the console</a></li>
+<li class="chapter" data-level="" data-path="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html"><a href="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html#rstudio-using-file-menu"><i class="fa fa-check"></i>RStudio: using File menu</a></li>
+<li class="chapter" data-level="" data-path="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html"><a href="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html#jupyter-using-terminal"><i class="fa fa-check"></i>Jupyter: using Terminal</a></li>
+<li class="chapter" data-level="" data-path="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html"><a href="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html#jupyter-using-shell-commands-in-cells"><i class="fa fa-check"></i>Jupyter: using shell commands in cells</a></li>
+<li class="chapter" data-level="" data-path="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html"><a href="how-to-copy-codedata-from-the-shared-drive-to-your-home-directory.html#jupyter-using-file-menu"><i class="fa fa-check"></i>Jupyter: using File menu</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="how-to-download-codedata-to-your-personal-computer.html"><a href="how-to-download-codedata-to-your-personal-computer.html"><i class="fa fa-check"></i>How to download code/data to your personal computer</a><ul>
+<li class="chapter" data-level="" data-path="how-to-download-codedata-to-your-personal-computer.html"><a href="how-to-download-codedata-to-your-personal-computer.html#rstudio-1"><i class="fa fa-check"></i>RStudio</a></li>
+<li class="chapter" data-level="" data-path="how-to-download-codedata-to-your-personal-computer.html"><a href="how-to-download-codedata-to-your-personal-computer.html#jupyter-1"><i class="fa fa-check"></i>Jupyter</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">FAS OnDemand Quick-Start Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="how-to-launch-rstudio-jupyter-from-canvas" class="section level1 unnumbered">
+<h1>How to launch RStudio / Jupyter from Canvas</h1>
+<p>To be able to use the FAS OnDemand computing environment for your DataFest project you will need to walk-through a handful of steps. Once completed, you will be running an RStudio or Jupyter session with all necessary packages pre-installed.</p>
+<div id="rstudio" class="section level2">
+<h2>RStudio</h2>
+<ol style="list-style-type: decimal">
+<li>Click <code>FAS OnDemand</code> in the left-side navigation panel within Canvas.</li>
+<li>On the Dashboard launcher page, on the left-side panel, click on <code>Rstudio Server - DataFest2021</code>.</li>
+<li>On the main panel, click the blue <code>Launch</code> button.</li>
+<li>On the Sessions page, click on the blue <code>Connect to RStudio Server</code> button.</li>
+<li>You should now have access to RStudio. You can create a new R/Rmarkdown file as usual, or open an existing file.</li>
+</ol>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="jupyter.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/IQSS/datafest-fas-ondemand/edit/master/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["datafest_fas_ondemand.pdf", "datafest_fas_ondemand.epub"],
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+</body>
+
+</html>
