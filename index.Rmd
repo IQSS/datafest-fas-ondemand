@@ -140,6 +140,5 @@ If you have files on your personal computer that you'd like to use within the FA
 
 1. Click `FAS OnDemand` in the left-side navigation panel within Canvas.
 2. On the Dashboard launcher page, go to the `Files` dropdown menu at top-left and click on `Home Directory`.
-3. Within the File Explorer page, click on the `Go To` button in the top most menu and navigate to: `/n/academic_homes/g_87116/SHARE/shared_data/` Note: this location for `shared_data` has been symlinked to your `Home` directory, so you will also see, and be able to access files from, `shared_data` within `Home`. 
-4. Within the `shared_data` directory, you can upload whatever code/data files you and your participants will need by clicking on the `Upload` button at the very top of the page and then choosing a file from your local machine. It probably makes sense to organize your files by first creating a directory with a short-named version of your demo session (see the `New Dir` button in the very top most menu). Make sure not to leave spaces in the directory name - use underscores (e.g., `APIs_to_acquire_data`). Then upload your files into this directory.
+3. Within the File Explorer page, you can upload whatever files you like to your home directory on FAS OnDemand by clicking on the `Upload` button at the very top right of the page and then choosing a file from your local machine.
 
