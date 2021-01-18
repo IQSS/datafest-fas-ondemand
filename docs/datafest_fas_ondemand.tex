@@ -158,20 +158,29 @@ The FAS OnDemand DataFest2021 RStudio installation is available for \texttt{R\ 4
 
 To be able to use the FAS OnDemand computing environment for your DataFest project you will need to walk-through a handful of steps. Once completed, you will be running an RStudio or Jupyter session with all necessary packages pre-installed. The FAS OnDemand computing environment is accessed from \emph{within} Canvas --- look for the \texttt{FAS\ OnDemand} button on the left-side navigation panel. Here are the steps to launch your session:
 
-\hypertarget{rstudio}{%
-\section{RStudio}\label{rstudio}}
-
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
   Click \texttt{FAS\ OnDemand} in the left-side navigation panel within Canvas.
+\end{enumerate}
+
+\includegraphics{images/1_canvas.png}
+
+\hypertarget{rstudio}{%
+\section{RStudio}\label{rstudio}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
 \item
   On the Dashboard launcher page, on the left-side panel, click on \texttt{Rstudio\ Server\ -\ DataFest2021}.
 \item
   On the main panel, click the blue \texttt{Launch} button.
+  \includegraphics{images/2_launch_rstudio.png}
 \item
   On the Sessions page, click on the blue \texttt{Connect\ to\ RStudio\ Server} button.
+  \includegraphics{images/4_connect_rstudio.png}
 \item
   You should now have access to RStudio. You can create a new R/Rmarkdown file as usual, or open an existing file.
 \end{enumerate}
@@ -181,20 +190,18 @@ To be able to use the FAS OnDemand computing environment for your DataFest proje
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Click \texttt{FAS\ OnDemand} in the left-side navigation panel within Canvas.
+\setcounter{enumi}{1}
 \item
   On the Dashboard launcher page, on the left-side panel, click on \texttt{Jupyter\ Notebook\ -\ DataFest2021}.
 \item
   On the main panel, click the blue \texttt{Launch} button.
+  \includegraphics{images/3_launch_jupyter.png}
 \item
   On the Sessions page, click on the blue \texttt{Connect\ to\ Jupyter} button.
+  \includegraphics{images/5_connect_jupyter.png}
 \item
-  You should now have access to Jupyter. You can either create a new notebook from the \texttt{New} dropdown on the far right (select the ``datafest\_2021'' kernel) or you can navigate to an existing file (after opening the file, select the \texttt{datafest\_2021} kernel from the Kernal menu).
+  You should now have access to Jupyter. You can either create a new notebook from the \texttt{New} dropdown on the far right (select the \texttt{datafest\_2021} kernel) or you can navigate to an existing file (after opening the file, select the \texttt{datafest\_2021} kernel from the Kernal menu).
 \end{enumerate}
-
-\includegraphics{images/readme-license.png}
 
 \hypertarget{copy-instructors-codedata-to-your-home-directory}{%
 \chapter{Copy instructor's code/data to your home directory}\label{copy-instructors-codedata-to-your-home-directory}}
@@ -203,8 +210,11 @@ If your instructor has uploaded code and/or data to the shared drive (this is th
 
 There are several different ways you can copy files from the \texttt{shared\_data} directory to your \texttt{Home} directory, depending on whether you'd prefer to use the command line or a GUI. Here are the options:
 
-\hypertarget{rstudio-using-terminal}{%
-\section{RStudio: using Terminal}\label{rstudio-using-terminal}}
+\hypertarget{rstudio-1}{%
+\section{RStudio}\label{rstudio-1}}
+
+\hypertarget{using-terminal}{%
+\subsection{Using Terminal}\label{using-terminal}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -215,8 +225,8 @@ There are several different ways you can copy files from the \texttt{shared\_dat
   Copy the file(s) or directories you want from the ``shared\_data'' directory to your home directory: \texttt{cp\ -r\ shared\_data/\textless{}directory-you-want\textgreater{}/\ .}
 \end{enumerate}
 
-\hypertarget{rstudio-using-shell-commands-in-the-console}{%
-\section{RStudio: using shell commands in the console}\label{rstudio-using-shell-commands-in-the-console}}
+\hypertarget{using-shell-commands-in-the-r-console}{%
+\subsection{Using shell commands in the R console}\label{using-shell-commands-in-the-r-console}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -225,8 +235,8 @@ There are several different ways you can copy files from the \texttt{shared\_dat
   Copy the file(s) or directories you want from the \texttt{shared\_data} directory to your home directory by running the following command in the console: \texttt{system("cp\ -r\ \textasciitilde{}/shared\_data/\textless{}directory-you-want\textgreater{}/\ .")}
 \end{enumerate}
 
-\hypertarget{rstudio-using-file-menu}{%
-\section{RStudio: using File menu}\label{rstudio-using-file-menu}}
+\hypertarget{using-the-file-menu}{%
+\subsection{Using the File menu}\label{using-the-file-menu}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -245,8 +255,11 @@ There are several different ways you can copy files from the \texttt{shared\_dat
   Click the \texttt{Save} button on the bottom right. There will now be a copy of the file in your home directory, which you can open and work with.
 \end{enumerate}
 
-\hypertarget{jupyter-using-terminal}{%
-\section{Jupyter: using Terminal}\label{jupyter-using-terminal}}
+\hypertarget{jupyter-1}{%
+\section{Jupyter}\label{jupyter-1}}
+
+\hypertarget{using-terminal-1}{%
+\subsection{Using Terminal}\label{using-terminal-1}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -261,8 +274,8 @@ There are several different ways you can copy files from the \texttt{shared\_dat
   Close the browser tab containing the Terminal (don't click \texttt{logout}!). Go back to the previous browser tab to access Jupyter again.
 \end{enumerate}
 
-\hypertarget{jupyter-using-shell-commands-in-cells}{%
-\section{Jupyter: using shell commands in cells}\label{jupyter-using-shell-commands-in-cells}}
+\hypertarget{using-shell-commands-in-cells}{%
+\subsection{Using shell commands in cells}\label{using-shell-commands-in-cells}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -273,8 +286,8 @@ There are several different ways you can copy files from the \texttt{shared\_dat
   Copy the file(s) of interest to your home directory: \texttt{!cp\ -r\ \textasciitilde{}/shared\_data/\textless{}directory-you-want\textgreater{}/\ .}
 \end{enumerate}
 
-\hypertarget{jupyter-using-file-menu}{%
-\section{Jupyter: using File menu}\label{jupyter-using-file-menu}}
+\hypertarget{using-the-file-menu-1}{%
+\subsection{Using the File menu}\label{using-the-file-menu-1}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -296,8 +309,8 @@ There are several different ways you can copy files from the \texttt{shared\_dat
 
 At the end of your project, you will probably want to download your script files and data files from the FAS OnDemand environment to your local machine. This is easy to do from within RStudio / Jupyter:
 
-\hypertarget{rstudio-1}{%
-\section{RStudio}\label{rstudio-1}}
+\hypertarget{rstudio-2}{%
+\section{RStudio}\label{rstudio-2}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -310,8 +323,8 @@ At the end of your project, you will probably want to download your script files
   In the pop-up window, click \texttt{Download}.
 \end{enumerate}
 
-\hypertarget{jupyter-1}{%
-\section{Jupyter}\label{jupyter-1}}
+\hypertarget{jupyter-2}{%
+\section{Jupyter}\label{jupyter-2}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
