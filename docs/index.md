@@ -116,7 +116,7 @@ There are several different ways you can copy files from the `shared_data` direc
 ### Using Terminal
 
 1. Click on the `Terminal` tab on the top left panel, next to `Console`.
-2. Copy the file(s) or directories you want from the "shared_data" directory to your home directory: `cp -r shared_data/<file-or-directory-you-want>/ .`
+2. Copy the file(s) or directories you want from the `shared_data` directory to your home directory: `cp -r shared_data/<file-or-directory-you-want>/ .`
 
 ![](images/11_rstudio_copy_terminal.png)
 
@@ -181,12 +181,19 @@ At the end of your project, you will probably want to download your script files
 
 1. Select the file of interest using the radio button within the file browser (bottom right panel).
 2. Click on the `More` dropdown menu (with gears icon) and select `Export`.
+
+![](images/19_rstudio_file_export.png)
+
 3. In the pop-up window, click `Download`.
+
+![](images/20_rstudio_file_download.png)
 
 ## Jupyter
 
 1. Select the file of interest using the radio button within the file browser.
 2. Click the `Download` button on the top menu.
+
+![](images/21_jupyter_file_download.png)
 
 
 # Upload code/data to your home directory
@@ -195,5 +202,9 @@ If you have files on your personal computer that you'd like to use within the FA
 
 1. Click `FAS OnDemand` in the left-side navigation panel within Canvas.
 2. On the Dashboard launcher page, go to the `Files` dropdown menu at top-left and click on `Home Directory`.
+
+![](images/22_files_home.png)
+
 3. Within the File Explorer page, you can upload whatever files you like to your home directory on FAS OnDemand by clicking on the `Upload` button at the very top right of the page and then choosing a file from your local machine.
 
+![](images/23_home_upload.png)
