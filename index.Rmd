@@ -201,10 +201,13 @@ At the end of your project, you will probably want to download your script files
 If you have files on your personal computer that you'd like to use within the FAS OnDemand computing environment, you can upload them by following these steps (the steps are the same regardless of whether you intend to use RStudio or Jupyter):
 
 1. Click `FAS OnDemand` in the left-side navigation panel within Canvas.
+
+![](images/22_canvas.png)
+
 2. On the Dashboard launcher page, go to the `Files` dropdown menu at top-left and click on `Home Directory`.
 
-![](images/22_files_home.png)
+![](images/23_files_home.png)
 
 3. Within the File Explorer page, you can upload whatever files you like to your home directory on FAS OnDemand by clicking on the `Upload` button at the very top right of the page and then choosing a file from your local machine.
 
-![](images/23_home_upload.png)
+![](images/24_home_upload.png)
