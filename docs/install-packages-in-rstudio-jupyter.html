@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Install packages in RStudio / Jupyter | FAS OnDemand Quick-Start Guide</title>
+  <meta name="description" content="This is a tutorial for using FAS OnDemand" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Install packages in RStudio / Jupyter | FAS OnDemand Quick-Start Guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a tutorial for using FAS OnDemand" />
+  <meta name="github-repo" content="IQSS/datafest-fas-ondemand" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Install packages in RStudio / Jupyter | FAS OnDemand Quick-Start Guide" />
+  
+  <meta name="twitter:description" content="This is a tutorial for using FAS OnDemand" />
+  
+
+<meta name="author" content="" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="launch-rstudio-jupyter.html"/>
+<link rel="next" href="copy-instructors-codedata-to-your-home-directory.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">FAS OnDemand Quick-Start Guide</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>What is FAS OnDemand?</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#why-are-we-using-fas-ondemand-for-datafest"><i class="fa fa-check"></i>Why are we using FAS OnDemand for DataFest?</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="launch-rstudio-jupyter.html"><a href="launch-rstudio-jupyter.html"><i class="fa fa-check"></i>Launch RStudio / Jupyter</a><ul>
+<li class="chapter" data-level="" data-path="launch-rstudio-jupyter.html"><a href="launch-rstudio-jupyter.html#rstudio"><i class="fa fa-check"></i>RStudio</a></li>
+<li class="chapter" data-level="" data-path="launch-rstudio-jupyter.html"><a href="launch-rstudio-jupyter.html#jupyter"><i class="fa fa-check"></i>Jupyter</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="install-packages-in-rstudio-jupyter.html"><a href="install-packages-in-rstudio-jupyter.html"><i class="fa fa-check"></i>Install packages in RStudio / Jupyter</a><ul>
+<li class="chapter" data-level="" data-path="install-packages-in-rstudio-jupyter.html"><a href="install-packages-in-rstudio-jupyter.html#rstudio-1"><i class="fa fa-check"></i>RStudio</a></li>
+<li class="chapter" data-level="" data-path="install-packages-in-rstudio-jupyter.html"><a href="install-packages-in-rstudio-jupyter.html#jupyter-1"><i class="fa fa-check"></i>Jupyter</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="copy-instructors-codedata-to-your-home-directory.html"><a href="copy-instructors-codedata-to-your-home-directory.html"><i class="fa fa-check"></i>Copy instructor’s code/data to your home directory</a><ul>
+<li class="chapter" data-level="" data-path="copy-instructors-codedata-to-your-home-directory.html"><a href="copy-instructors-codedata-to-your-home-directory.html#rstudio-2"><i class="fa fa-check"></i>RStudio</a><ul>
+<li class="chapter" data-level="" data-path="copy-instructors-codedata-to-your-home-directory.html"><a href="copy-instructors-codedata-to-your-home-directory.html#using-terminal"><i class="fa fa-check"></i>Using Terminal</a></li>
+<li class="chapter" data-level="" data-path="copy-instructors-codedata-to-your-home-directory.html"><a href="copy-instructors-codedata-to-your-home-directory.html#using-shell-commands-in-the-r-console"><i class="fa fa-check"></i>Using shell commands in the R console</a></li>
+<li class="chapter" data-level="" data-path="copy-instructors-codedata-to-your-home-directory.html"><a href="copy-instructors-codedata-to-your-home-directory.html#using-the-file-menu"><i class="fa fa-check"></i>Using the File menu</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="copy-instructors-codedata-to-your-home-directory.html"><a href="copy-instructors-codedata-to-your-home-directory.html#jupyter-2"><i class="fa fa-check"></i>Jupyter</a><ul>
+<li class="chapter" data-level="" data-path="copy-instructors-codedata-to-your-home-directory.html"><a href="copy-instructors-codedata-to-your-home-directory.html#using-terminal-1"><i class="fa fa-check"></i>Using Terminal</a></li>
+<li class="chapter" data-level="" data-path="copy-instructors-codedata-to-your-home-directory.html"><a href="copy-instructors-codedata-to-your-home-directory.html#using-shell-commands-in-cells"><i class="fa fa-check"></i>Using shell commands in cells</a></li>
+<li class="chapter" data-level="" data-path="copy-instructors-codedata-to-your-home-directory.html"><a href="copy-instructors-codedata-to-your-home-directory.html#using-the-file-menu-1"><i class="fa fa-check"></i>Using the File menu</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="download-codedata-to-your-personal-computer.html"><a href="download-codedata-to-your-personal-computer.html"><i class="fa fa-check"></i>Download code/data to your personal computer</a><ul>
+<li class="chapter" data-level="" data-path="download-codedata-to-your-personal-computer.html"><a href="download-codedata-to-your-personal-computer.html#rstudio-3"><i class="fa fa-check"></i>RStudio</a></li>
+<li class="chapter" data-level="" data-path="download-codedata-to-your-personal-computer.html"><a href="download-codedata-to-your-personal-computer.html#jupyter-3"><i class="fa fa-check"></i>Jupyter</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="upload-codedata-to-your-home-directory.html"><a href="upload-codedata-to-your-home-directory.html"><i class="fa fa-check"></i>Upload code/data to your home directory</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">FAS OnDemand Quick-Start Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="install-packages-in-rstudio-jupyter" class="section level1 unnumbered">
+<h1>Install packages in RStudio / Jupyter</h1>
+<p>It is probable that the package you need is already pre-installed and that you can import it in your notebooks with <code>import packagename</code>. If that is not the case, below are the steps to install R and Python packages .</p>
+<div id="rstudio-1" class="section level2">
+<h2>RStudio</h2>
+<p>You can install from CRAN or Github as follows:</p>
+<ol style="list-style-type: decimal">
+<li>CRAN: <code>install.packages(&quot;packagename&quot;)</code></li>
+<li>Github: <code>remotes::install_github(&quot;user/packagename&quot;)</code></li>
+</ol>
+<p>For example, to install the <code>shiny</code> package, run <code>install.packages(&quot;shiny&quot;)</code>:</p>
+<p><img src="images/8_rstudio_packages.png" /></p>
+</div>
+<div id="jupyter-1" class="section level2">
+<h2>Jupyter</h2>
+<ol style="list-style-type: decimal">
+<li>From the jupyter notebooks interface, click <code>New</code> then <code>Terminal</code>. A terminal will open in a new browser tab.</li>
+</ol>
+<p><img src="images/9_jupyter_terminal.png" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li>In the Terminal, run <code>pip install --user packagename</code>, replacing <code>packagename</code> with the Python package you intend to install. e.g:</li>
+</ol>
+<p><img src="images/10_jupyter_terminal_install.png" /></p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="launch-rstudio-jupyter.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="copy-instructors-codedata-to-your-home-directory.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/IQSS/datafest-fas-ondemand/edit/master/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["datafest_fas_ondemand.pdf", "datafest_fas_ondemand.epub"],
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -237,6 +237,52 @@ To be able to use the FAS OnDemand computing environment for your DataFest proje
 
 \includegraphics{images/7_jupyter_open.png}
 
+\hypertarget{install-packages-in-rstudio-jupyter}{%
+\chapter*{Install packages in RStudio / Jupyter}\label{install-packages-in-rstudio-jupyter}}
+\addcontentsline{toc}{chapter}{Install packages in RStudio / Jupyter}
+
+It is probable that the package you need is already pre-installed and that you can import it in your notebooks with \texttt{import\ packagename}. If that is not the case, below are the steps to install R and Python packages .
+
+\hypertarget{rstudio-1}{%
+\section{RStudio}\label{rstudio-1}}
+
+You can install from CRAN or Github as follows:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  CRAN: \texttt{install.packages("packagename")}
+\item
+  Github: \texttt{remotes::install\_github("user/packagename")}
+\end{enumerate}
+
+For example, to install the \texttt{shiny} package, run \texttt{install.packages("shiny")}:
+
+\includegraphics{images/8_rstudio_packages.png}
+
+\hypertarget{jupyter-1}{%
+\section{Jupyter}\label{jupyter-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  From the jupyter notebooks interface, click \texttt{New} then \texttt{Terminal}. A terminal will open in a new browser tab.
+\end{enumerate}
+
+\includegraphics{images/9_jupyter_terminal.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  In the Terminal, run \texttt{pip\ install\ -\/-user\ packagename}, replacing \texttt{packagename} with the Python package you intend to install. e.g:
+\end{enumerate}
+
+\includegraphics{images/10_jupyter_terminal_install.png}
+
 \hypertarget{copy-instructors-codedata-to-your-home-directory}{%
 \chapter{Copy instructor's code/data to your home directory}\label{copy-instructors-codedata-to-your-home-directory}}
 
@@ -244,8 +290,8 @@ If your instructor has uploaded code and/or data to the shared drive (this is th
 
 There are several different ways you can copy files from the \texttt{shared\_data} directory to your \texttt{Home} directory, depending on whether you'd prefer to use the command line or a GUI. Here are the options:
 
-\hypertarget{rstudio-1}{%
-\section{RStudio}\label{rstudio-1}}
+\hypertarget{rstudio-2}{%
+\section{RStudio}\label{rstudio-2}}
 
 \hypertarget{using-terminal}{%
 \subsection{Using Terminal}\label{using-terminal}}
@@ -289,8 +335,8 @@ There are several different ways you can copy files from the \texttt{shared\_dat
   Click the \texttt{Save} button on the bottom right. There will now be a copy of the file in your home directory, which you can open and work with.
 \end{enumerate}
 
-\hypertarget{jupyter-1}{%
-\section{Jupyter}\label{jupyter-1}}
+\hypertarget{jupyter-2}{%
+\section{Jupyter}\label{jupyter-2}}
 
 \hypertarget{using-terminal-1}{%
 \subsection{Using Terminal}\label{using-terminal-1}}
@@ -343,8 +389,8 @@ There are several different ways you can copy files from the \texttt{shared\_dat
 
 At the end of your project, you will probably want to download your script files and data files from the FAS OnDemand environment to your local machine. This is easy to do from within RStudio / Jupyter:
 
-\hypertarget{rstudio-2}{%
-\section{RStudio}\label{rstudio-2}}
+\hypertarget{rstudio-3}{%
+\section{RStudio}\label{rstudio-3}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -357,8 +403,8 @@ At the end of your project, you will probably want to download your script files
   In the pop-up window, click \texttt{Download}.
 \end{enumerate}
 
-\hypertarget{jupyter-2}{%
-\section{Jupyter}\label{jupyter-2}}
+\hypertarget{jupyter-3}{%
+\section{Jupyter}\label{jupyter-3}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}

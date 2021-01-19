@@ -74,6 +74,33 @@ To be able to use the FAS OnDemand computing environment for your DataFest proje
 ![](images/7_jupyter_open.png)
 
 
+# Install packages in RStudio / Jupyter {-}
+
+It is probable that the package you need is already pre-installed and that you can import it in your notebooks with `import packagename`. If that is not the case, below are the steps to install R and Python packages .
+
+## RStudio
+
+You can install from CRAN or Github as follows: 
+
+1. CRAN: `install.packages("packagename")`
+2. Github: `remotes::install_github("user/packagename")`
+
+For example, to install the `shiny` package, run `install.packages("shiny")`:
+
+![](images/8_rstudio_packages.png)
+
+
+## Jupyter
+
+1. From the jupyter notebooks interface, click `New` then `Terminal`. A terminal will open in a new browser tab.
+
+![](images/9_jupyter_terminal.png)
+
+2. In the Terminal, run `pip install --user packagename`, replacing `packagename` with the Python package you intend to install. e.g:
+
+![](images/10_jupyter_terminal_install.png)
+
+
 # Copy instructor's code/data to your home directory
 
 If your instructor has uploaded code and/or data to the shared drive (this is the `shared_data` directory within your `Home` directory) then the first thing you should do before using these files is to copy them to your `Home` directory. These copies will serve as your own personal version of the files, which you can modify as you wish.
