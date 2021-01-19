@@ -70,6 +70,7 @@
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>What is FAS OnDemand?</a><ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#why-are-we-using-fas-ondemand-for-datafest"><i class="fa fa-check"></i>Why are we using FAS OnDemand for DataFest?</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#fas-ondemand-documentation"><i class="fa fa-check"></i>FAS OnDemand documentation</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="launch-rstudio-jupyter.html"><a href="launch-rstudio-jupyter.html"><i class="fa fa-check"></i>Launch RStudio / Jupyter</a><ul>
 <li class="chapter" data-level="" data-path="launch-rstudio-jupyter.html"><a href="launch-rstudio-jupyter.html#rstudio"><i class="fa fa-check"></i>RStudio</a></li>
@@ -126,25 +127,28 @@
 <h3>Using Terminal</h3>
 <ol style="list-style-type: decimal">
 <li>Click on the <code>Terminal</code> tab on the top left panel, next to <code>Console</code>.</li>
-<li>Copy the file(s) or directories you want from the “shared_data” directory to your home directory: <code>cp -r shared_data/&lt;directory-you-want&gt;/ .</code></li>
+<li>Copy the file(s) or directories you want from the “shared_data” directory to your home directory: <code>cp -r shared_data/&lt;file-or-directory-you-want&gt;/ .</code></li>
 </ol>
+<p><img src="images/11_rstudio_copy_terminal.png" /></p>
 </div>
 <div id="using-shell-commands-in-the-r-console" class="section level3">
 <h3>Using shell commands in the R console</h3>
 <ol style="list-style-type: decimal">
-<li>Copy the file(s) or directories you want from the <code>shared_data</code> directory to your home directory by running the following command in the console: <code>system(&quot;cp -r ~/shared_data/&lt;directory-you-want&gt;/ .&quot;)</code></li>
+<li>Copy the file(s) or directories you want from the <code>shared_data</code> directory to your home directory by running the following command in the console: <code>system(&quot;cp -r ~/shared_data/&lt;file-or-directory-you-want&gt;/ .&quot;)</code></li>
 </ol>
+<p><img src="images/12_rstudio_copy_console.png" /></p>
 </div>
 <div id="using-the-file-menu" class="section level3">
 <h3>Using the File menu</h3>
 <ol style="list-style-type: decimal">
 <li>In the <code>Files</code> menu in the bottom right panel, navigate to the <code>shared_data</code> directory.</li>
 <li>Navigate to the directory with materials for the current session.</li>
-<li>Put a check next to the file you want to copy to your home folder. You can only copy one file at a time and no directories.</li>
+<li>Put a check next to the file you want to copy to your home folder. You can only copy one file at a time and cannot copy directories.</li>
 <li>Click on the <code>More</code> dropdown menu (with gears icon) and select <code>Copy To</code>.</li>
 <li>Near the top of the resulting pop-up window, click on the <code>Home</code> directory icon.</li>
 <li>Click the <code>Save</code> button on the bottom right. There will now be a copy of the file in your home directory, which you can open and work with.</li>
 </ol>
+<p><img src="images/13_rstudio_copy_file_menu.png" /></p>
 </div>
 </div>
 <div id="jupyter-2" class="section level2">
@@ -154,16 +158,26 @@
 <ol style="list-style-type: decimal">
 <li>Click on the <code>New</code> dropdown on the right side of the page.</li>
 <li>Select <code>Terminal</code> from the dropdown menu.</li>
-<li>In the new browser tab, copy the file(s) or directories you want from the <code>shared_data</code> directory to your home directory: <code>cp -r shared_data/&lt;directory-you-want&gt;/ .</code></li>
-<li>Close the browser tab containing the Terminal (don’t click <code>logout</code>!). Go back to the previous browser tab to access Jupyter again.</li>
+</ol>
+<p><img src="images/14_jupyter_terminal.png" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li>A new browser tab will open. Copy the file(s) or directories you want from the <code>shared_data</code> directory to your home directory: <code>cp -r shared_data/&lt;file-or-directory-you-want&gt;/ .</code></li>
+</ol>
+<p><img src="images/15_jupyter_copy_terminal.png" /></p>
+<ol start="4" style="list-style-type: decimal">
+<li>Close the browser tab containing the Terminal (do not click <code>logout</code>!). Go back to the previous browser tab to access Jupyter again.</li>
 </ol>
 </div>
 <div id="using-shell-commands-in-cells" class="section level3">
 <h3>Using shell commands in cells</h3>
 <ol style="list-style-type: decimal">
-<li>Open a Jupyter Notebook or create a new cell.</li>
-<li>Copy the file(s) of interest to your home directory: <code>!cp -r ~/shared_data/&lt;directory-you-want&gt;/ .</code></li>
+<li>Open an existing Jupyter Notebook or create a new notebook.</li>
 </ol>
+<p><img src="images/16_jupyter_open_copy.png" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li>In a new cell, copy the file(s) of interest to your home directory: <code>!cp -r ~/shared_data/&lt;file-or-directory-you-want&gt;/ .</code></li>
+</ol>
+<p><img src="images/17_jupyter_cell_copy.png" /></p>
 </div>
 <div id="using-the-file-menu-1" class="section level3">
 <h3>Using the File menu</h3>
@@ -174,6 +188,7 @@
 <li>Click <code>Move</code> from the top menu.</li>
 <li>Delete ALL of the file path in the pop-up window and click the blue <code>Move</code> button</li>
 </ol>
+<p><img src="images/18_jupyter_copy_file_menu.png" /></p>
 </div>
 </div>
 </div>

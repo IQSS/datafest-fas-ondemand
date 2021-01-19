@@ -152,6 +152,11 @@ The FAS OnDemand DataFest2021 Jupyter Notebooks installation comes with a \textt
 
 The FAS OnDemand DataFest2021 RStudio installation is available for \texttt{R\ 4.0.3} and comes preinstalled with common packages such as \texttt{devtools}, \texttt{learnr}, and the complete \texttt{tidyverse} collection of R packages, as well as many specialized packages we'll use during DataFest.
 
+\hypertarget{fas-ondemand-documentation}{%
+\section{FAS OnDemand documentation}\label{fas-ondemand-documentation}}
+
+This Quick-Start Guide is designed to get you up and running in a few minutes. More extensive information about FAS OnDemand can be found in the main \href{https://academic-login.rc.fas.harvard.edu/pun/sys/dashboard/}{Documentation}.
+
 \hypertarget{launch-rstudio-jupyter}{%
 \chapter*{Launch RStudio / Jupyter}\label{launch-rstudio-jupyter}}
 \addcontentsline{toc}{chapter}{Launch RStudio / Jupyter}
@@ -302,8 +307,10 @@ There are several different ways you can copy files from the \texttt{shared\_dat
 \item
   Click on the \texttt{Terminal} tab on the top left panel, next to \texttt{Console}.
 \item
-  Copy the file(s) or directories you want from the ``shared\_data'' directory to your home directory: \texttt{cp\ -r\ shared\_data/\textless{}directory-you-want\textgreater{}/\ .}
+  Copy the file(s) or directories you want from the ``shared\_data'' directory to your home directory: \texttt{cp\ -r\ shared\_data/\textless{}file-or-directory-you-want\textgreater{}/\ .}
 \end{enumerate}
+
+\includegraphics{images/11_rstudio_copy_terminal.png}
 
 \hypertarget{using-shell-commands-in-the-r-console}{%
 \subsection{Using shell commands in the R console}\label{using-shell-commands-in-the-r-console}}
@@ -312,8 +319,10 @@ There are several different ways you can copy files from the \texttt{shared\_dat
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Copy the file(s) or directories you want from the \texttt{shared\_data} directory to your home directory by running the following command in the console: \texttt{system("cp\ -r\ \textasciitilde{}/shared\_data/\textless{}directory-you-want\textgreater{}/\ .")}
+  Copy the file(s) or directories you want from the \texttt{shared\_data} directory to your home directory by running the following command in the console: \texttt{system("cp\ -r\ \textasciitilde{}/shared\_data/\textless{}file-or-directory-you-want\textgreater{}/\ .")}
 \end{enumerate}
+
+\includegraphics{images/12_rstudio_copy_console.png}
 
 \hypertarget{using-the-file-menu}{%
 \subsection{Using the File menu}\label{using-the-file-menu}}
@@ -326,7 +335,7 @@ There are several different ways you can copy files from the \texttt{shared\_dat
 \item
   Navigate to the directory with materials for the current session.
 \item
-  Put a check next to the file you want to copy to your home folder. You can only copy one file at a time and no directories.
+  Put a check next to the file you want to copy to your home folder. You can only copy one file at a time and cannot copy directories.
 \item
   Click on the \texttt{More} dropdown menu (with gears icon) and select \texttt{Copy\ To}.
 \item
@@ -334,6 +343,8 @@ There are several different ways you can copy files from the \texttt{shared\_dat
 \item
   Click the \texttt{Save} button on the bottom right. There will now be a copy of the file in your home directory, which you can open and work with.
 \end{enumerate}
+
+\includegraphics{images/13_rstudio_copy_file_menu.png}
 
 \hypertarget{jupyter-2}{%
 \section{Jupyter}\label{jupyter-2}}
@@ -348,10 +359,26 @@ There are several different ways you can copy files from the \texttt{shared\_dat
   Click on the \texttt{New} dropdown on the right side of the page.
 \item
   Select \texttt{Terminal} from the dropdown menu.
+\end{enumerate}
+
+\includegraphics{images/14_jupyter_terminal.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
 \item
-  In the new browser tab, copy the file(s) or directories you want from the \texttt{shared\_data} directory to your home directory: \texttt{cp\ -r\ shared\_data/\textless{}directory-you-want\textgreater{}/\ .}
+  A new browser tab will open. Copy the file(s) or directories you want from the \texttt{shared\_data} directory to your home directory: \texttt{cp\ -r\ shared\_data/\textless{}file-or-directory-you-want\textgreater{}/\ .}
+\end{enumerate}
+
+\includegraphics{images/15_jupyter_copy_terminal.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
 \item
-  Close the browser tab containing the Terminal (don't click \texttt{logout}!). Go back to the previous browser tab to access Jupyter again.
+  Close the browser tab containing the Terminal (do not click \texttt{logout}!). Go back to the previous browser tab to access Jupyter again.
 \end{enumerate}
 
 \hypertarget{using-shell-commands-in-cells}{%
@@ -361,10 +388,20 @@ There are several different ways you can copy files from the \texttt{shared\_dat
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Open a Jupyter Notebook or create a new cell.
-\item
-  Copy the file(s) of interest to your home directory: \texttt{!cp\ -r\ \textasciitilde{}/shared\_data/\textless{}directory-you-want\textgreater{}/\ .}
+  Open an existing Jupyter Notebook or create a new notebook.
 \end{enumerate}
+
+\includegraphics{images/16_jupyter_open_copy.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  In a new cell, copy the file(s) of interest to your home directory: \texttt{!cp\ -r\ \textasciitilde{}/shared\_data/\textless{}file-or-directory-you-want\textgreater{}/\ .}
+\end{enumerate}
+
+\includegraphics{images/17_jupyter_cell_copy.png}
 
 \hypertarget{using-the-file-menu-1}{%
 \subsection{Using the File menu}\label{using-the-file-menu-1}}
@@ -383,6 +420,8 @@ There are several different ways you can copy files from the \texttt{shared\_dat
 \item
   Delete ALL of the file path in the pop-up window and click the blue \texttt{Move} button
 \end{enumerate}
+
+\includegraphics{images/18_jupyter_copy_file_menu.png}
 
 \hypertarget{download-codedata-to-your-personal-computer}{%
 \chapter{Download code/data to your personal computer}\label{download-codedata-to-your-personal-computer}}

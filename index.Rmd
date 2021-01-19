@@ -33,6 +33,10 @@ The FAS OnDemand DataFest2021 Jupyter Notebooks installation comes with a `Pytho
 
 The FAS OnDemand DataFest2021 RStudio installation is available for `R 4.0.3` and comes preinstalled with common packages such as `devtools`, `learnr`, and the complete `tidyverse` collection of R packages, as well as many specialized packages we'll use during DataFest. 
 
+## FAS OnDemand documentation
+
+This Quick-Start Guide is designed to get you up and running in a few minutes. More extensive information about FAS OnDemand can be found in the main [Documentation](https://academic-login.rc.fas.harvard.edu/pun/sys/dashboard/).
+
 
 # Launch RStudio / Jupyter {-}
 
@@ -112,20 +116,26 @@ There are several different ways you can copy files from the `shared_data` direc
 ### Using Terminal
 
 1. Click on the `Terminal` tab on the top left panel, next to `Console`.
-2. Copy the file(s) or directories you want from the "shared_data" directory to your home directory: `cp -r shared_data/<directory-you-want>/ .`
+2. Copy the file(s) or directories you want from the "shared_data" directory to your home directory: `cp -r shared_data/<file-or-directory-you-want>/ .`
+
+![](images/11_rstudio_copy_terminal.png)
 
 ### Using shell commands in the R console
 
-1. Copy the file(s) or directories you want from the `shared_data` directory to your home directory by running the following command in the console: `system("cp -r ~/shared_data/<directory-you-want>/ .")`
+1. Copy the file(s) or directories you want from the `shared_data` directory to your home directory by running the following command in the console: `system("cp -r ~/shared_data/<file-or-directory-you-want>/ .")`
+
+![](images/12_rstudio_copy_console.png)
 
 ### Using the File menu
 
 1. In the `Files` menu in the bottom right panel, navigate to the `shared_data` directory.
 2. Navigate to the directory with materials for the current session.
-3. Put a check next to the file you want to copy to your home folder. You can only copy one file at a time and no directories.
+3. Put a check next to the file you want to copy to your home folder. You can only copy one file at a time and cannot copy directories.
 4. Click on the `More` dropdown menu (with gears icon) and select `Copy To`.
 5. Near the top of the resulting pop-up window, click on the `Home` directory icon.
 6. Click the `Save` button on the bottom right. There will now be a copy of the file in your home directory, which you can open and work with.
+
+![](images/13_rstudio_copy_file_menu.png)
 
 ## Jupyter
 
@@ -133,13 +143,24 @@ There are several different ways you can copy files from the `shared_data` direc
 
 1. Click on the `New` dropdown on the right side of the page.
 2. Select `Terminal` from the dropdown menu.
-3. In the new browser tab, copy the file(s) or directories you want from the `shared_data` directory to your home directory: `cp -r shared_data/<directory-you-want>/ .`
-4. Close the browser tab containing the Terminal (don’t click `logout`!). Go back to the previous browser tab to access Jupyter again.
+
+![](images/14_jupyter_terminal.png)
+
+3. A new browser tab will open. Copy the file(s) or directories you want from the `shared_data` directory to your home directory: `cp -r shared_data/<file-or-directory-you-want>/ .`
+
+![](images/15_jupyter_copy_terminal.png)
+
+4. Close the browser tab containing the Terminal (do not click `logout`!). Go back to the previous browser tab to access Jupyter again.
 
 ### Using shell commands in cells
 
-1. Open a Jupyter Notebook or create a new cell.
-2. Copy the file(s) of interest to your home directory: `!cp -r ~/shared_data/<directory-you-want>/ .`
+1. Open an existing Jupyter Notebook or create a new notebook.
+
+![](images/16_jupyter_open_copy.png)
+
+2. In a new cell, copy the file(s) of interest to your home directory: `!cp -r ~/shared_data/<file-or-directory-you-want>/ .`
+
+![](images/17_jupyter_cell_copy.png)
 
 ### Using the File menu
 
@@ -148,6 +169,8 @@ There are several different ways you can copy files from the `shared_data` direc
 3. Select the radio button next to the duplicated file.
 4. Click `Move` from the top menu.
 5. Delete ALL of the file path in the pop-up window and click the blue `Move` button 
+
+![](images/18_jupyter_copy_file_menu.png)
 
 
 # Download code/data to your personal computer
