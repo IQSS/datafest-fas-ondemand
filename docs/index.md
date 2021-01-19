@@ -76,11 +76,11 @@ To be able to use the FAS OnDemand computing environment for your DataFest proje
 
 # Install packages in RStudio / Jupyter {-}
 
-It is probable that the package you need is already pre-installed and that you can import it in your notebooks with `import packagename`. If that is not the case, below are the steps to install R and Python packages .
+It is probable that the package you need is already pre-installed and that you can load it into your R/Python session in the usual way. If that is not the case, below are the steps to install R and Python packages.
 
 ## RStudio
 
-You can install from CRAN or Github as follows: 
+You can install from CRAN or Github using the `Console` as follows: 
 
 1. CRAN: `install.packages("packagename")`
 2. Github: `remotes::install_github("user/packagename")`
